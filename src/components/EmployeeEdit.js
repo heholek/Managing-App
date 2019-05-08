@@ -23,9 +23,8 @@ class EmployeeEdit extends Component {
     };
     onTextPress(){
         const { phone, shift } = this.props;
-        Communications.text(phone, `Your upcoming shift is on ${shift}`)
-    };
-
+        Communications.text(phone, 'fgjsfkgjsk')
+    }
     onAccept(){
         const { uid } = this.props.employee;
         this.props.employeeDelete( { uid } );
