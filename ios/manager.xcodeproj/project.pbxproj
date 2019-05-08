@@ -5,7 +5,6 @@
 	};
 	objectVersion = 46;
 	objects = {
-
 /* Begin PBXBuildFile section */
 		00C302E51ABCBA2D00DB3ED1 /* libRCTActionSheet.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 00C302AC1ABCB8CE00DB3ED1 /* libRCTActionSheet.a */; };
 		00C302E71ABCBA2D00DB3ED1 /* libRCTGeolocation.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 00C302BA1ABCB90400DB3ED1 /* libRCTGeolocation.a */; };
@@ -40,6 +39,14 @@
 		ADBDB9381DFEBF1600ED6528 /* libRCTBlob.a in Frameworks */ = {isa = PBXBuildFile; fileRef = ADBDB9271DFEBF0700ED6528 /* libRCTBlob.a */; };
 		ED297163215061F000B7C4FE /* JavaScriptCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED297162215061F000B7C4FE /* JavaScriptCore.framework */; };
 		ED2971652150620600B7C4FE /* JavaScriptCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED2971642150620600B7C4FE /* JavaScriptCore.framework */; };
+		B291A74DBE5444A99F842BE6 /* Archivo-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0A5B42BAD86F492FB7919B98 /* Archivo-Bold.ttf */; };
+		01EEAA7963C1493384E02F6B /* Archivo-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7DA2C16E0CB8481A88E1B5BD /* Archivo-BoldItalic.ttf */; };
+		0C383DDC5133470793D90E3E /* Archivo-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6FBFF06BEA3044569C7A5F46 /* Archivo-Italic.ttf */; };
+		5B9EAB40D5B3449CBCF1BDAE /* Archivo-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A595E0F48EB9440EBAA73283 /* Archivo-Medium.ttf */; };
+		0AD8DB5B9B4F401C8FBAEFF6 /* Archivo-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A3327041A5ED4A639954D3B2 /* Archivo-MediumItalic.ttf */; };
+		C5510842429B457FA0BCB11A /* Archivo-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B29836B16443473EA6FE8FA3 /* Archivo-Regular.ttf */; };
+		F207A25259E242F0B0D5E565 /* Archivo-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FDAAE9FC43AC45AEA9E6EFD5 /* Archivo-SemiBold.ttf */; };
+		03D68D7C1CB34CDBA0730E89 /* Archivo-SemiBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 75B50F40DA5D47AD80E7EE45 /* Archivo-SemiBoldItalic.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -347,6 +354,14 @@
 		ADBDB91F1DFEBF0600ED6528 /* RCTBlob.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTBlob.xcodeproj; path = "../node_modules/react-native/Libraries/Blob/RCTBlob.xcodeproj"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		ED2971642150620600B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS12.0.sdk/System/Library/Frameworks/JavaScriptCore.framework; sourceTree = DEVELOPER_DIR; };
+		0A5B42BAD86F492FB7919B98 /* Archivo-Bold.ttf */ = {isa = PBXFileReference; name = "Archivo-Bold.ttf"; path = "../src/assets/fonts/Archivo-Bold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		7DA2C16E0CB8481A88E1B5BD /* Archivo-BoldItalic.ttf */ = {isa = PBXFileReference; name = "Archivo-BoldItalic.ttf"; path = "../src/assets/fonts/Archivo-BoldItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		6FBFF06BEA3044569C7A5F46 /* Archivo-Italic.ttf */ = {isa = PBXFileReference; name = "Archivo-Italic.ttf"; path = "../src/assets/fonts/Archivo-Italic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		A595E0F48EB9440EBAA73283 /* Archivo-Medium.ttf */ = {isa = PBXFileReference; name = "Archivo-Medium.ttf"; path = "../src/assets/fonts/Archivo-Medium.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		A3327041A5ED4A639954D3B2 /* Archivo-MediumItalic.ttf */ = {isa = PBXFileReference; name = "Archivo-MediumItalic.ttf"; path = "../src/assets/fonts/Archivo-MediumItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		B29836B16443473EA6FE8FA3 /* Archivo-Regular.ttf */ = {isa = PBXFileReference; name = "Archivo-Regular.ttf"; path = "../src/assets/fonts/Archivo-Regular.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		FDAAE9FC43AC45AEA9E6EFD5 /* Archivo-SemiBold.ttf */ = {isa = PBXFileReference; name = "Archivo-SemiBold.ttf"; path = "../src/assets/fonts/Archivo-SemiBold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		75B50F40DA5D47AD80E7EE45 /* Archivo-SemiBoldItalic.ttf */ = {isa = PBXFileReference; name = "Archivo-SemiBoldItalic.ttf"; path = "../src/assets/fonts/Archivo-SemiBoldItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -585,6 +600,7 @@
 				00E356EF1AD99517003FC87E /* managerTests */,
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
+				59C9877525654814BE5081F1 /* Resources */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -610,6 +626,22 @@
 			);
 			name = Products;
 			sourceTree = "<group>";
+		};
+		59C9877525654814BE5081F1 /* Resources */ = {
+			isa = "PBXGroup";
+			children = (
+				0A5B42BAD86F492FB7919B98 /* Archivo-Bold.ttf */,
+				7DA2C16E0CB8481A88E1B5BD /* Archivo-BoldItalic.ttf */,
+				6FBFF06BEA3044569C7A5F46 /* Archivo-Italic.ttf */,
+				A595E0F48EB9440EBAA73283 /* Archivo-Medium.ttf */,
+				A3327041A5ED4A639954D3B2 /* Archivo-MediumItalic.ttf */,
+				B29836B16443473EA6FE8FA3 /* Archivo-Regular.ttf */,
+				FDAAE9FC43AC45AEA9E6EFD5 /* Archivo-SemiBold.ttf */,
+				75B50F40DA5D47AD80E7EE45 /* Archivo-SemiBoldItalic.ttf */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+			path = "";
 		};
 /* End PBXGroup section */
 
@@ -692,7 +724,7 @@
 		83CBB9F71A601CBA00E9B192 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0940;
+				LastUpgradeCheck = 940;
 				ORGANIZATIONNAME = Facebook;
 				TargetAttributes = {
 					00E356ED1AD99517003FC87E = {
@@ -1057,6 +1089,14 @@
 			files = (
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
 				13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */,
+				B291A74DBE5444A99F842BE6 /* Archivo-Bold.ttf in Resources */,
+				01EEAA7963C1493384E02F6B /* Archivo-BoldItalic.ttf in Resources */,
+				0C383DDC5133470793D90E3E /* Archivo-Italic.ttf in Resources */,
+				5B9EAB40D5B3449CBCF1BDAE /* Archivo-Medium.ttf in Resources */,
+				0AD8DB5B9B4F401C8FBAEFF6 /* Archivo-MediumItalic.ttf in Resources */,
+				C5510842429B457FA0BCB11A /* Archivo-Regular.ttf in Resources */,
+				F207A25259E242F0B0D5E565 /* Archivo-SemiBold.ttf in Resources */,
+				03D68D7C1CB34CDBA0730E89 /* Archivo-SemiBoldItalic.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

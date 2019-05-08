@@ -25,6 +25,7 @@ class ListItem extends Component {
 }
 const styles = {
   titleStyle: {
+      fontFamily: 'Archivo-Bold',
     fontSize: 18,
     paddingLeft: 15,
   }

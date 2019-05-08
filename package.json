@@ -11,6 +11,7 @@
     "lodash": "^4.17.11",
     "react": "16.8.3",
     "react-native": "0.59.5",
+    "react-native-asset": "^1.1.3",
     "react-native-communications": "^2.2.1",
     "react-native-router-flux": "^4.0.6",
     "react-redux": "^7.0.3",
@@ -30,6 +31,8 @@
     "preset": "react-native"
   },
   "rnpm": {
-    "assets": ["assets/fonts/Archivo-Bold"]
-   }
+    "assets": [
+      "./src/assets/fonts"
+    ]
+  }
 }
